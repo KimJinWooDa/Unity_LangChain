@@ -1,4 +1,4 @@
-from flask_server import Flask, request, jsonify
+from flask import Flask, request, jsonify
 from langchain.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
 
