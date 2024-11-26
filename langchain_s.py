@@ -23,7 +23,7 @@ def process_playtime_with_langchain(playtime):
     prompt = PromptTemplate(input_variables=["playtime"], template=template)
 
     # ChatOpenAI를 사용하여 gpt-4 모델로 프롬프트 응답 생성
-    llm = ChatOpenAI(model="gpt-4", temperature=0.7, openai_api_key="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")  # API 키 직접 전달
+    llm = ChatOpenAI(model="gpt-4", temperature=0.7, openai_api_key="")  # API 키 직접 전달
 
     try:
         # 프롬프트를 문자열로 포맷하여 전달
